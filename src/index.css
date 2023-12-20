@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    background: #0a192f;
+    background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(72, 94, 105, 0.4) 10%,rgba(240, 87, 87, 0) 40%),-moz-linear-gradient(top, rgba(9,9,121,1) 0%, rgba(0,0,0,1) 50%, rgba(102,0,102,1) 100%), -moz-linear-gradient(-45deg, #2d2f32 0%, #0a192f 100%);
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(223, 226, 228, 0.4) 10%,rgba(219, 21, 21, 0) 40%), -webkit-linear-gradient(top, rgba(9,9,121,1) 0%,rgba(0,0,0,1) 50%, rgba(102,0,102,1) 100%), -webkit-linear-gradient(-45deg, #0a192f 0%,#0a192f 100%);
+    background: -o-radial-gradient(0% 100%, ellipse cover, rgba(168, 177, 181, 0.4) 10%,rgba(0, 0, 0, 0) 40%), -o-linear-gradient(top, rgba(9,9,121,1) 0%,rgba(0,0,0,1) 50%, rgb(9, 5, 128) 100%), -o-linear-gradient(-45deg, #0a192f 0%,#0a192f 100%);
+    background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(28, 3, 87, 0.654) 10%,rgba(0, 0, 0, 0) 40%), -ms-linear-gradient(top, rgb(50, 50, 104) 0%,rgba(0,0,0,1) 50%, rgba(102,0,102,1) 100%), -ms-linear-gradient(-45deg, #061c3e 0%,#0a192f 100%);
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(177, 173, 216, 0.4) 10%,rgba(38, 38, 38, 0) 40%), linear-gradient(to bottom, rgba(9,9,121,1) 0%,rgba(0,0,0,1) 50%, rgba(102,0,102,1) 100%), linear-gradient(135deg, #0a192f 0%,#0a192f 100%);
+    background-size: 200% 200%;
+    animation: gradient 55s ease infinite;
+    min-height: 100vh;
+    height: 100vh;
+    overflow: auto;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 100% 0%;
+    }
+    50% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
